@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% extends "index.html" %}
+{% load static %}
+
+{% block main_content%}
+<main role ="main">
+<div class="jumbotron">
+  <div class="container">
+     <img src="{% static '/LMS_logo.png'%}" class="rounded float-start" alt="LMS" height="200" style="margin-right: 20px;">
+    <h1 class="display-4">Hello Readers!</h1>
+    <p>Welcome to Library. We have a large collection of books to cater the reading needs of all kinds of readers. </p>
+    <p><button role="button" href="#"  class="btn btn-primary btn-lg">Browse our collection>></button></p>
+
+
+
+  </div>
+
+
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Why reading is important?</h2>
+        <p>
+          Reading is good for you because it improves your focus, memory, empathy, a. communication skills. It can reduce stress, improve your mental health, and help you live longer. Reading also allows you to learn new things to help you succeed in your work and relationships.
+        </p>
+    </div>
+    <div class="col">
+      <h2>Key benefits</h2>
+        <ul>
+          <li> Increase your vocabulary and comprehension skills</li>
+          <li>Reduce stress</li>
+          <li> Improve mental health</li>
+          <li> Prevents cognitive decline</li>
+        </ul>
+    </div>
+    <div class="col">
+      <h2>Thought of the day</h2>
+        <p>
+          'Just don't give up trying to do what you really want to do. Where there is love and inspiration, don't think You can go wrong." - Ella Fitzgerald
+        </p>
+    </div>
+  </div>
+  <hr>
+</div>
+  </main>
+<footer class ="container">
+    <p>@ Library</p>
+</footer>
+
+
+
+  {% endblock %}
